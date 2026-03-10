@@ -13,7 +13,7 @@ const fs = require("fs");
 // 제출용
 const input = fs.readFileSync(0).toString().split("\n");
 
-// A:472, B,385
+// A:472, B:385
 const [A, B] = input;
 
 console.log(A * Number(B[2]));  // 2360
